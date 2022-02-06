@@ -1,0 +1,156 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.secundomer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.time_block{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    background-color:rgb(179, 179, 179);
+    color:rgb(255, 255, 255);
+    border:rgb(0, 0, 0) 5px solid;
+    border-radius:25px;
+    
+}
+
+.block_row_time{
+    width: 95%;
+    height: 250px;
+    background-color:slategray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+.timeClock{
+    width: 80%;
+    height: 150px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    margin-bottom: 20px;
+    
+
+}
+
+.icon{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.button2{
+    background-color: unset;
+    color: white;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    
+}
+
+.button2:hover{
+    font-size: 27px;
+}
+
+.button2:active{
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.timer{
+    background-color: black;
+    color: none;
+    border: none;
+    width: 10%;
+}
+
+
+
+.buttonBlock{
+    width: 500px;
+    height: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 25px;
+}
+
+
+
+.button{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 10px;
+
+}
+
+.button:hover{
+    background-color:rgb(0, 0, 0);
+    color: white;
+}
+
+.button:active{
+    border:#7fff00 5px solid;
+    
+}
+
+
+.green{
+    color: #00ff00;
+}
+
+.blue{
+    color:#00fff2;
+}
+
+
+
+.white{
+    color: white;
+}
+
+
+h1{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+
+
+.time{
+    width: 10%;
+    font-size: 20px;
+    border: #00fff200 2px solid;
+    border-radius: 25px;
+    
+}
